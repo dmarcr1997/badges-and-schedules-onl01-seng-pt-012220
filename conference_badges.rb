@@ -1,9 +1,10 @@
 require 'pry'
 # Write your code here.
 def badge_maker(names)
-  badge_message = names.each do |name|
-    badge_message >> "Hello, my name is #{name}."
+  badge_messages = names.each do |name|
+    badge_messages >> "Hello, my name is #{name}."
   end
+  return badge_messages
 end
-
+puts badge_messages
 binding.pry
