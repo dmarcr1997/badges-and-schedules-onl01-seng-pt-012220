@@ -5,7 +5,6 @@ def badge_maker(names)
     badge_messages << "Hello, my name is #{name}."
   end
   binding.pry
-  return badge_messages
 end
 
 
