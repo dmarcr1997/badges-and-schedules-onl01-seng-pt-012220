@@ -7,5 +7,6 @@ def badge_maker(names)
   end
   return badge_messages
 end
+
 binding.pry
 
