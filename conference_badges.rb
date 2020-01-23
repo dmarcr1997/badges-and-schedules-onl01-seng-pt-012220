@@ -6,4 +6,4 @@ def badge_maker(names)
   end
 end
 
-biding.pry
+binding.pry
