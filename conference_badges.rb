@@ -7,8 +7,9 @@ def badge_maker(names)
   names.each do |name|
     badge_messages << "Hello, my name is #{name}."
   end
+  binding.pry
   return badge_messages
 end
-bade
-binding.pry
+
+
 
